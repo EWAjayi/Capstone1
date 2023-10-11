@@ -44,6 +44,43 @@
     1: HTML form w/ user and pass fields
     2: A "remember me" check box
     3: Appropriate HTML validation -->
+      <form action="submit_form.html" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required minlength="4" required maxlength="20">
+          <br>
+  
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required minlength="8">
+          <br>
+  
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required>
+          <br>
+  
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+          <br>
+  
+          <label for="url">Website:</label>
+          <input type="url" id="url" name="url">
+          <br>
+  
+          <input type="submit" value="Register">
+      </form>
+  
+      <div class="row g-3 p-5 align-items-center">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Password</label>
+          </div>
+          <div class="col-auto">
+            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+              Must be 8-20 characters long.
+            </span>
+          </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2023 My Website</p>
