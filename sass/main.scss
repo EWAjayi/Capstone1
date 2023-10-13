@@ -2,24 +2,19 @@
 $primary: #ECC209;
 $light: #FDF8E1;
 
-// import bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-
-//$muted: #FBEA9E;
-// "altlight": #FDF4CB,
-// "vanilla": #fcefb4,
-// "jasmine": #FAD871,
-// "naples": #F9DC5C,
-// "xanthous" #F4BB52
-
 // import the functions and variables
 // IMPORTANT: redefined variables go BEFORE the import
 @import "../node_modules/bootstrap/scss/_functions";
 @import "../node_modules/bootstrap/scss/_variables";
 
+// new theme colors
 $custom-theme-colors: (
-
+"altlight": #FDF4CB,
+"vanilla": #fcefb4,
+"pale": #FBEA9E,
+"jasmine": #FAD871,
+"naples": #F9DC5C,
+"xanthous": #F4BB52,
 );
 
 // combine theme maps
@@ -36,7 +31,6 @@ $utilities-colors: map-merge(
 
 $utilities-text-colors: map-loop($utilities-colors, rgba-css-var, "$key", "text");
 $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
-
 
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";

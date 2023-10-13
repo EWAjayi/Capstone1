@@ -10,6 +10,16 @@
   <!-- Customized bootstrap intergration -->
   <link rel="stylesheet" href="css/main.min.css">
 
+  <!-- Custom Theme colors
+  $custom-theme-colors: (
+    "altlight": #FDF4CB,
+    "vanilla": #fcefb4,
+    "pale": #FBEA9E,
+    "jasmine": #FAD871,
+    "naples": #F9DC5C,
+    "xanthous": #F4BB52,
+    "harvest": #C88200,
+  ); -->
   <title>Itanna Oorun</title>
   <style>
     body{
@@ -19,15 +29,28 @@
       padding: 3%;
       margin: auto;
     }
+    footer{
+      margin-top: 50px;
+      padding-top: 3%;
+      padding-bottom: 1%;
+      color: #fcefb4;
+      background-color: #F4BB52;
+    }
+    h1{
+      color: #C88200;
+    }
+    p{
+      color: #FDF4CB;
+    }
   </style>
 </head>
 
 <body>
   <!-- Navigation -->
   <header>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-naples">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.html" style="color: #C88200;">
       <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Itanna Oorun" width="30" height="24">
       </a>
 
@@ -37,7 +60,7 @@
       </button>
 
         <!-- nav menu items -->
-      <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <div class="navbar-collapse collapse" id="navbarSupportedContent"">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -75,7 +98,7 @@
   2: At least 2 paragrphs of text
   3: A bulleted or numbered list -->
   
-  <section class="content">
+  <section class="content bg-light">
     <section class="exposition">
       <h1 class="display-1 text-center" style="max-width: 75%; margin: auto;"> Ittana Oorun: Sunshine in a Bottle!</h1>
       <!-- page banner -->
@@ -83,13 +106,13 @@
         <img src="images\placeholder.png" alt="Banner" width="600" height="400">
       </div>
       <!-- Paragraphs -->
-      <p class="text-justify p-3 text-primary">
+      <p class="text-justify p-3" style="color:#ECC209;">
         In a world filled with confusion and instability, it is comforting to have an escape from the busy work week or lonely night. Here at Ittana Oorun, we sell the highest quality bottled sunlight on the market. 
       </p>
-      <p class="text-justify p-3 text-primary">
+      <p class="text-justify p-3" style="color:#ECC209;">
         We are FDA, CDC, WHO, LMNOP approved and regulated. 6/5 therapists recommend our products. Michelle Obama is famously cited for using this product to achieve her eternal youth. Give it a try today!      </p>
       <!-- List -->
-      <p class="lead" style="padding: 5px;"> Reasons to need a lil' light:</p>
+      <p class="lead" style="padding: 5px; color: #C88200;"> Reasons to need a lil' light:</p>
           <ul class="list-group" style="padding-bottom: 5%; margin-left: 4%;">
               <li>You will have a pocket full of Sunshine</li>
               <li>You will aquire a love that is "all mine"</li>
@@ -178,7 +201,7 @@
   
   </main>
   <footer>
-    <div class="container-fluid text-center" style="margin-top: 50px; padding-top: 3%; padding-bottom: 1%; color: #FDF8E1; background-color: #F4BB52;">
+    <div class="container-fluid text-center">
       <!-- column 1 -->
       <div class="row align-items-center">
         <div class="col">
