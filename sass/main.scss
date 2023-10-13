@@ -1,7 +1,17 @@
 //custom variables
 $primary: #ECC209;
 $light: #FDF8E1;
-$muted: #FBEA9E;
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+//$muted: #FBEA9E;
+// "altlight": #FDF4CB,
+// "vanilla": #fcefb4,
+// "jasmine": #FAD871,
+// "naples": #F9DC5C,
+// "xanthous" #F4BB52
 
 // import the functions and variables
 // IMPORTANT: redefined variables go BEFORE the import
@@ -9,11 +19,7 @@ $muted: #FBEA9E;
 @import "../node_modules/bootstrap/scss/_variables";
 
 $custom-theme-colors: (
-    "altlight": #FDF4CB,
-    "vanilla": #fcefb4,
-    "jasmine": #FAD871,
-    "naples": #F9DC5C,
-    "xanthous" #F4BB52
+
 );
 
 // combine theme maps
