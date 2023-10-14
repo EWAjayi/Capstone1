@@ -24,6 +24,7 @@
   <style>
     body{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #FDF4CB;
     }
     section{
       padding: 3%;
@@ -42,6 +43,15 @@
     p{
       color: #FDF4CB;
     }
+    table{
+      display:table;
+      width: 100%;
+      flex-wrap: wrap;
+      border-collapse: collapse;
+      padding: 5%;
+      margin: auto;
+    }
+    
   </style>
 </head>
 
@@ -98,29 +108,74 @@
   2: Appropriate HTML validation
   3: Must contain an HTML table displaying at least 3 rows of sample data for items in cart -->
   
-    <!-- Cart details -->
-    <div class="small-container" style="margin: 2%; padding: 3%;">
-      <table class="cart d-flex" style="width: 100%; flex-wrap: wrap; border-collapse: collapse; padding: 5%;">
-        <tr>
-          <th class="tabel head" style="padding: 5px; padding-left: 20px; color: #FDF8E1; background-color: #F4BB52;">Product</th>
-          <th class="tabel head" style="padding: 5px; padding-left: 10px; color: #FDF8E1; background-color: #F4BB52;">Quantity</th>
-          <th class="tabel head" style="padding: 5px; padding-left: 10px; color: #FDF8E1; background-color: #F4BB52;">Subtotal</th>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart info" style="padding-top: 10px;">
-              <img src="images/placeholder.png">
-              <div>
-                <p>Product 1</p>
-                <small> Price: $5</small>
-                <a href="">Remove</a>
-              </div>
-            </div>
-          </td>
-          <td class="quantity" style="padding-left: 10px; width: 20px; height: 20px;"><input type="number" value="1"></td>
-          <td class="subtotal" style="padding-left: 5%;">$20</td>
-        </tr>
-      </table>
+    <!-- Cart -->
+    <div class="container-fluid">
+      <div class="card mx-auto mt-5 " style="width: 100%; color: #C88200;">
+        <div class="card-header">
+          <h3 class="text-center">Shopping Cart</h3>
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <!-- cart head -->
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Item</th>
+                <th class="text-center">Quantity</th>
+                <th class="text-center">Price</th>
+              </tr>
+            </thead>
+            <!-- cart items -->
+            <tbody>
+              <tr>
+                <td>1</td> 
+                <td>Gloomy Morning</td>
+                <td class="text-center">
+                  <input name="item" value="1" size="2">
+                  <input type="hidden" name="txtItem" value="1">                
+                </td>
+                <td class="text-center">
+                  <span class="price">$1</span>
+                  <input type="hidden" name="txtPrice" value="1">
+                  <input type="hidden" name="totalTxtPrice" value="1">
+                <td>
+              </tr>
+              <tr>
+                <td>2</td> 
+                <td>Baja Breeze</td>
+                <td class="text-center">
+                  <input name="item" value="1" size="2">
+                  <input type="hidden" name="txtItem" value="1">                
+                </td>
+                <td class="text-center">
+                  <span class="price">$1</span>
+                  <input type="hidden" name="txtPrice" value="1">
+                  <input type="hidden" name="totalTxtPrice" value="1">
+                <td>
+              </tr>
+              <tr>
+                <td>3</td> 
+                <td>Late Night/ Early Morn'</td>
+                <td class="text-center">
+                  <input name="item" value="1" size="2">
+                  <input type="hidden" name="txtItem" value="1">                
+                </td>
+                <td class="text-center">
+                  <span class="price">$1</span>
+                  <input type="hidden" name="txtPrice" value="1">
+                  <input type="hidden" name="totalTxtPrice" value="1">
+                <td>
+              </tr>
+              <tr>
+                <td colspan="2" class="text-end"> Total Quantity : </td>
+                <td><span class="totalQuantity">3</span></td>
+                <td>Total Amount : <span class="totalAmount"></span>$3</td>
+                <td><input type="submit" value="Submit"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </main>
 
