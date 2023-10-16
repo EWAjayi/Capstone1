@@ -20,32 +20,36 @@ Ittanna Ooorun (full sunlight) is a platform to sell the fictional product, bott
 ## Screenshots
 
 Index
-![App Screenshot](images\screenshots\index1.png) 
-![App Screenshot](images\screenshots\index2.png)
+![index1](https://github.com/EWAjayi/Capstone1/assets/146771903/49e3e437-7606-4f36-83b6-fc1cfccd0af1)
+![index2](https://github.com/EWAjayi/Capstone1/assets/146771903/5d870714-c88c-4dec-8d99-9d4d03b18b0f)
+
 
 Main Product page
-![App Screenshot](images\screenshots\product1.png)
-![App Screenshot](images\screenshots\product2.png)
+![product1](https://github.com/EWAjayi/Capstone1/assets/146771903/f78d1f04-90fa-460e-8649-fabe49be60d4)
+![product2](https://github.com/EWAjayi/Capstone1/assets/146771903/cb63f7b2-9221-4de7-980f-a2842015faca)
+
 
 User Registration
-![App Screenshot](images\screenshots\registration1.png)
-![App Screenshot](images\screenshots\registration2.png)
+![registration1](https://github.com/EWAjayi/Capstone1/assets/146771903/e3ee9ff2-be1c-4122-945d-c61f00791ba0)
+![registration2](https://github.com/EWAjayi/Capstone1/assets/146771903/8ed5771c-683f-4b8c-8b9e-c99605b1cacb)
+
 
 User Login
-![App Screenshot](images\screenshots\login.png)
+![login](https://github.com/EWAjayi/Capstone1/assets/146771903/fb315bf1-e0dd-4747-9345-bf896442fafe)
 
 Checkout
-![App Screenshot](images\screenshots\checkout.png)
+![checkout](https://github.com/EWAjayi/Capstone1/assets/146771903/ff728cff-0a03-4eab-b4ce-6c0b97baab27)
+
 
 Custom SCSS themes
-![App Screenshot](images\screenshots\scss.png)
+![scss](https://github.com/EWAjayi/Capstone1/assets/146771903/2991f8a6-be2a-40a6-90a2-7920ab6e369c)
+
 
 
 ## Acknowledgements
 
 -Thank you to the YearUp program for their guidance and support in this project.
 -Special thanks to our professors Remsey Mailjard and Nathan Cole as well as my coach Shoshana.
-
 
 
 Thank you to Readme.so for their editor
