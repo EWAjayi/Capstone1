@@ -38,7 +38,9 @@ User Login
 ![login](https://github.com/EWAjayi/Capstone1/assets/146771903/fb315bf1-e0dd-4747-9345-bf896442fafe)
 
 Checkout
-![checkout](https://github.com/EWAjayi/Capstone1/assets/146771903/ff728cff-0a03-4eab-b4ce-6c0b97baab27)
+![checkout](https://github.com/EWAjayi/Capstone1/assets/146771903/7b78e79a-0019-41e2-9e1d-a226b62d9c54)
+![checkout2](https://github.com/EWAjayi/Capstone1/assets/146771903/1cfdeb72-a6df-4399-9260-a88a724d9eca)
+
 
 
 Custom SCSS themes
