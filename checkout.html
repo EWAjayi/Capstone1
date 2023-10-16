@@ -24,34 +24,41 @@
   <style>
     body{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      background-color: #FDF4CB;
+      background-color: #fdf8e1;
     }
     section{
       padding: 3%;
       margin: auto;
+      background-color: #fdf8e1;
     }
     footer{
       margin-top: 50px;
       padding-top: 3%;
       padding-bottom: 1%;
-      color: #fcefb4;
-      background-color: #F4BB52;
+      color: #c88200c5;
+      background-color: #FDF4CB;
     }
     h1{
       color: #C88200;
     }
+    h5{
+      color: #C88200;
+      text-align: center;
+    }
     p{
-      color: #FDF4CB;
+      color: #F4BB52;
+      text-align: center;
+      text-justify: auto;
     }
     table{
       display:table;
       width: 100%;
+      max-width: 90%;
       flex-wrap: wrap;
       border-collapse: collapse;
       padding: 5%;
       margin: auto;
     }
-    
   </style>
 </head>
 
@@ -109,9 +116,10 @@
   3: Must contain an HTML table displaying at least 3 rows of sample data for items in cart -->
   
     <!-- Cart -->
+    <section class= "content">
     <div class="container-fluid">
-      <div class="card mx-auto mt-5 " style="width: 100%; color: #C88200;">
-        <div class="card-header">
+      <div class="card mx-auto mt-5 border border-primary" style="width: 100%; color: #C88200; max-width: 90%;">
+        <div class="card-header bg-vanilla">
           <h3 class="text-center">Shopping Cart</h3>
         </div>
         <div class="card-body">
@@ -177,6 +185,7 @@
         </div>
       </div>
     </div>
+  </section>
   </main>
 
   <footer>
